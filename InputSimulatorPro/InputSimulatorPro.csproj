@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageId>InputSimulatorPro</PackageId>
+    <Title>InputSimulatorPro</Title>
+    <Company>1TheCrazy</Company>
+    <Authors>1TheCrazy</Authors>
+    <Description>A wrapper for the User32.SendInput method that provides features unique to this package.</Description>
+    <PackageProjectUrl>https://github.com/1TheCrazy/InputSimulatorPro</PackageProjectUrl>
+  </PropertyGroup>
+
+</Project>
