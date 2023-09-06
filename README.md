@@ -10,10 +10,18 @@ A wrapper for the User32.SendInput method that provides features unique to this 
 
 <details>
   <summary>Introduction</summary>
+  
   The main class of this package is `InputSimulator`. It holds references to `IKeyboard`,`IMouse`,`IDebugger` and `IKeyStateGrabber`. Those hold the main features of the package.
 </details>
 
 <details>
   <summary>IKeyboard</summary>
-  `IKeyboard`
+  
+  `IKeyboard` (or int the `InputSimulator`-class a `Keyboard`-instance) holds methods for keyboard related input simulations;
+
+  __KeyDown:__
+  ```
+  public void KeyDown(VirtualKeyShort keyShort)
+  ```
+  Takes in a `VirtualKeyShort` representing the key you want to simulate the KeyDown input for.
 </details>
