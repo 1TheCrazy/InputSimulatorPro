@@ -24,4 +24,27 @@ A wrapper for the User32.SendInput method that provides features unique to this 
   public void KeyDown(VirtualKeyShort keyShort)
   ```
   Takes in a `VirtualKeyShort` representing the key you want to simulate the KeyDown input for.
+
+  __KeyUp:__
+  ```
+  public void KeyUp(VirtualKeyShort keyShort)
+  ```
+  Takes in a `VirtualKeyShort` representing the key you want to simulate the KeyDown input for.
+
+  __KeyPress__
+  ```
+  public void KeyPress(VirtualKeyShort keyShort)
+  ```
+  Takes in a `VirtualKeyShort` reporesenting the key you want to simulate a keypress (down and up input) for.
+  __TextEntry__
+  ```
+  public void TextEntry(string text)
+  ```
+  Takes in a `string` representing the Text you want to enter. The method simulates the KeyDown and KeyUp input for every char in the string and mapps it to the `VirtualKeyCode`. 
+
+  __SimultaneousKeyPress__
+  ```
+  public void SimultaneousKeyPress(VirtualKeyShort[] keyShorts)
+  ```
+  Takes in an array of `VirtualKeyShort` representing the keys you want to simulate a keypress for at the same time. This can be used to simulate inputs that use the CTRL-key as a modifyer key.
 </details>
