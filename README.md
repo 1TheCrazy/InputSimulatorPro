@@ -26,6 +26,7 @@ __How to install:__ (Visual Studio)
    
 ## Changelog
 v1.0.0 : Initial Release
+
 v1.0.1 : Hotfix, structs and enums used for creating the INPUT struct were not public.
 
 ## Docs
