@@ -12,7 +12,7 @@ namespace InputSimulatorPro.Resources
     /// <summary>
     /// A class used for dispatching and sending inputs to the native SendInput method.
     /// </summary>
-    internal class InputDispatcher
+    public class InputDispatcher
     {
         /// <summary>
         /// Dispatches the inputs.

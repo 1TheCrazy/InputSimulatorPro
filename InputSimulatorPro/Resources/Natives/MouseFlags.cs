@@ -10,7 +10,7 @@ namespace InputSimulatorPro.Resources.Natives
     /// The <see cref="MouseFlags"/> for an <see cref="MOUSEINPUT"/> instance.
     /// </summary>
     [Flags]
-    internal enum MouseFlags : uint
+    public enum MouseFlags : uint
     {
         /// <summary>
         /// Null.

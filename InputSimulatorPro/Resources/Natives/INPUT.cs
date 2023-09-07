@@ -10,7 +10,7 @@ namespace InputSimulatorPro.Resources.Natives
     /// <summary>
     /// The <see cref="INPUT"/> structure used for simulating inputs.
     /// </summary>
-    internal struct INPUT
+    public struct INPUT
     {
         /// <summary>
         /// The <see cref="InputType"/> for this <see cref="INPUT"/> instance. Defines what the input can simulate.

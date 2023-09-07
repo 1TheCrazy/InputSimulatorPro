@@ -10,7 +10,7 @@ namespace InputSimulatorPro.Resources.Natives
     /// <summary>
     /// The <see cref="MOUSEINPUT"/> for an <see cref="InputGroup"/> instance.
     /// </summary>
-    internal struct MOUSEINPUT
+    public struct MOUSEINPUT
     {
         /// <summary>
         /// Holds the <see cref="x"/> coordinate for a <see cref="MouseFlags.Move"/> action.

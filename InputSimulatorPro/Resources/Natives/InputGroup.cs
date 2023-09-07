@@ -11,7 +11,7 @@ namespace InputSimulatorPro.Resources.Natives
     /// The <see cref="InputGroup"/>.
     /// </summary>
     [StructLayout(LayoutKind.Explicit)]
-    internal struct InputGroup
+    public struct InputGroup
     {
         /// <summary>
         /// The <see cref="MOUSEINPUT"/> for this <see cref="InputGroup"/>. Defines all the mouse-related inputs.

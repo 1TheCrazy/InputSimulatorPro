@@ -10,7 +10,7 @@ namespace InputSimulatorPro.Resources.Natives
     /// The <see cref="KeyboardFlags"/> of an <see cref="KEYBDINPUT"/> instance. Defines the input action that should be simulated.
     /// </summary>
     [Flags]
-    internal enum KeyboardFlags : uint
+    public enum KeyboardFlags : uint
     {
         /// <summary>
         /// Defines taht the simulated input holds an <see cref="Extendedkey"/> (e.g. function key or numpad key). This flag is needed for keys that require unique handling.

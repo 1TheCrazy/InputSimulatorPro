@@ -10,7 +10,7 @@ namespace InputSimulatorPro.Resources.Natives
     /// <summary>
     /// The <see cref="KEYBDINPUT"/> of an <see cref="INPUT"/> instance.
     /// </summary>
-    internal struct KEYBDINPUT
+    public struct KEYBDINPUT
     {
         /// <summary>
         /// The <see cref="VirtualKeyShort"/> for this <see cref="KEYBDINPUT"/>. Defines what virtual key should be used for simulated inputs of this <see cref="KEYBDINPUT"/>.

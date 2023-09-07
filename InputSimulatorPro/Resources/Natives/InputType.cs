@@ -9,7 +9,7 @@ namespace InputSimulatorPro.Resources.Natives
     /// <summary>
     /// The <see cref="InputType"/> enum. Defines what type of input an <see cref="INPUT"/> instance holds.
     /// </summary>
-    internal enum InputType : uint
+    public enum InputType : uint
     {
         /// <summary>
         /// Defines that an <see cref="INPUT"/> instance holds an mouse-related input.

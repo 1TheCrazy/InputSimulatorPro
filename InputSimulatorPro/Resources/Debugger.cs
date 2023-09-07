@@ -18,7 +18,7 @@ namespace InputSimulatorPro.Resources
         /// <summary>
         /// A <see cref="string"/> that holds the current version of <see cref="InputSimulatorPro"/>.
         /// </summary>
-        public string Version { get { return "1.0.0"; } }
+        public string Version { get { return "1.0.0.1"; } }
         /// <summary>
         /// A <see cref="string"/> that holds the author of this code.
         /// </summary>
