@@ -24,6 +24,10 @@ __How to install:__ (Visual Studio)
 
    *If you can use the NuGet package for automated updates!*
    
+## Changelog
+v1.0.0 : Initial Release
+v1.0.1 : Hotfix, structs and enums used for creating the INPUT struct were not public.
+
 ## Docs
 
 <details>
