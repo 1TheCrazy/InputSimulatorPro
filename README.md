@@ -2,9 +2,12 @@
 
 A wrapper for the User32.SendInput method that provides features unique to this package.
 
-## NuGet
+## [NuGet](https://www.nuget.org/packages/InputSimulatorPro/)
 
 [![NuGet](https://img.shields.io/nuget/dt/InputSimulatorPro.svg?style=flat&label=InputSimulatorPro&logo=nuget&color=#6A994E)](https://www.nuget.org/packages/InputSimulatorPro/)
+
+## [Dll](./.dll/InputSimulatorPro.dll)
+
 
 ## Docs
 
