@@ -23,7 +23,7 @@ __How to install:__ (Visual Studio)
 4. Click 'OK'
 5. Add a `using` statement at tthe top of your code
 
-   *If you can use the NuGet package for automated updates!*
+   *If you can, use the NuGet package for automated updates!*
    
 ## Changelog
 v1.0.0 : Initial Release
