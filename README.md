@@ -104,7 +104,7 @@ v1.0.1 : Hotfix, structs and enums used for creating the INPUT struct were not p
 <details>
   <summary>IMouse</summary>
 
-  `IKeyboard` (or in the `InputSimulator`-class a `Mouse`-instance) holds methods for mouse related input simulations;
+  `IMouse` (or in the `InputSimulator`-class a `Mouse`-instance) holds methods for mouse related input simulations;
 
 
   __KeyDown__
