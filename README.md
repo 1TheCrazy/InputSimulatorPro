@@ -275,7 +275,7 @@ v1.0.1 : Hotfix, structs and enums used for creating the INPUT struct were not p
   ```
   public void Log(string message)
   ```
-  Logs a message to the console.
+  Logs a message to the console if DoDebugInfo is true.
 </details>
 
 <details>
