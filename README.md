@@ -12,6 +12,7 @@ __How to install:__ (Visual Studio)
 3. Select the 'Browse' tab
 4. Enter 'InputSimulatorPro' in the search bar
 5. Select the result, click 'Install' and 'OK'
+6. Add a `using` statement at the top of your code
 
 ## [Dll](./.dll/InputSimulatorPro.dll)
 
@@ -20,7 +21,7 @@ __How to install:__ (Visual Studio)
 2. In the solution explorer of your project, right-click the 'Dependencies'-Tab and click on 'Add Project Reference'
 3. Click on 'Browse' and locate the file
 4. Click 'OK'
-5. Add a `using` statement at tthe top of your code.
+5. Add a `using` statement at tthe top of your code
 
    *If you can use the NuGet package for automated updates!*
    
