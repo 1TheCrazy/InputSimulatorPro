@@ -279,7 +279,7 @@ v1.0.1 : Hotfix, structs and enums used for creating the INPUT struct were not p
 </details>
 
 <details>
-  <summary>NativeMethos</summary>
+  <summary>NativeMethods</summary>
   
   The `NativeMethods`-class holds all the methods from the Windows-API used in this package, but also a few methods that can be useful while working with makros;
 
