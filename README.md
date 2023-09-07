@@ -6,9 +6,24 @@ A wrapper for the User32.SendInput method that provides features unique to this 
 
 [![NuGet](https://img.shields.io/nuget/dt/InputSimulatorPro.svg?style=flat&label=InputSimulatorPro&logo=nuget&color=#6A994E)](https://www.nuget.org/packages/InputSimulatorPro/)
 
+__How to install:__ (Visual Studio) 
+1. Right-click your project in the Solution Explorer
+2. Click 'Manage NuGet Packages...'
+3. Select the 'Browse' tab
+4. Enter 'InputSimulatorPro' in the search bar
+5. Select the result, click 'Install' and 'OK'
+
 ## [Dll](./.dll/InputSimulatorPro.dll)
 
+__How to install:__ (Visual Studio)
+1. Download the [InputSimulatorPro.dll](./.dll/InputSimulatorPro)-file
+2. In the solution explorer of your project, right-click the 'Dependencies'-Tab and click on 'Add Project Reference'
+3. Click on 'Browse' and locate the file
+4. Click 'OK'
+5. Add a `using` statement at tthe top of your code.
 
+   *If you can use the NuGet package for automated updates!*
+   
 ## Docs
 
 <details>
