@@ -148,7 +148,7 @@ v1.0.1 : Hotfix, structs and enums used for creating the INPUT struct were not p
 
   useNormalizedCoordinates and virtualDesktop can't be used together.
 
-  useNormalizedCoordinates may not be pixel-perfect due to floating point errors. (ca. 8p out of 10.000, no guarantee on that)
+  useNormalizedCoordinates may not be pixel-perfect due to floating point errors and how deltaTime is calculated. (ca. 8p out of 10.000, no guarantee on that)
 
 
   __InterpolateCursorPositionRelative__
@@ -175,7 +175,7 @@ v1.0.1 : Hotfix, structs and enums used for creating the INPUT struct were not p
 
   useNormalizedCoordinates and virtualDesktop can't be used together.
 
-  useNormalizedCoordinates may not be pixel-perfect due to floating point errors. (ca. 8p out of 10.000, no guarantee on that)
+  useNormalizedCoordinates may not be pixel-perfect due to floating point errors and how deltaTime is calculated. (ca. 8p out of 10.000, no guarantee on that)
 
 
   __VerticalWheel__
