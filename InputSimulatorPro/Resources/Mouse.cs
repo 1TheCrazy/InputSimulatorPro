@@ -73,8 +73,6 @@ namespace InputSimulatorPro.Resources
 
                 if (useNormalizedCoordinates)
                 {
-                    Console.WriteLine((int)_x);
-                    Console.WriteLine((int)((65535.0 / NativeMethods.GetSystemMetrics(0)) * (int)_x));
                     input[0].Group.Mouse.x = (int)((65535.0 / NativeMethods.GetSystemMetrics(0)) * (int)_x);
                     input[0].Group.Mouse.y = (int)((65535.0 / NativeMethods.GetSystemMetrics(1)) * (int)_y);
                 }
@@ -238,7 +236,7 @@ namespace InputSimulatorPro.Resources
             INPUT[] input = new INPUT[1];
             input[0].Type = InputType.Mouse;
             input[0].Group.Mouse.MouseData = (uint)((int)MouseData.DefaultScroll * scroll);
-            input[0].Group.Mouse.Flags = MouseFlags.HorizontalWheel;
+            input[0].Group.Mouse.Flags = MouseFlags.VerticalWheel;
 
             InputDispatcher.DispatchInput(input);
         }
