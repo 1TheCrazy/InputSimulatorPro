@@ -30,6 +30,8 @@ v1.0.0 : Initial Release
 
 v1.0.1 : Hotfix, structs and enums used for creating the INPUT struct were not public.
 
+v1.0.2 : Removed unnecessary WriteLine-statements and fixed not working Mouse.VerticalWheel.
+
 ## Docs
 
 <details>
