@@ -12,6 +12,8 @@
     <Authors>1TheCrazy</Authors>
     <Description>A wrapper for the User32.SendInput method that provides features unique to this package.</Description>
     <PackageProjectUrl>https://github.com/1TheCrazy/InputSimulatorPro</PackageProjectUrl>
+    <PackageReleaseNotes>Removed uneccessary WriteLine statements and fixed Vertical scroll not working.</PackageReleaseNotes>
+    <Version>1.0.2</Version>
   </PropertyGroup>
 
 </Project>
