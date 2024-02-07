@@ -318,16 +318,16 @@ v1.0.3 : General Updates
 </details>
 
 <details>
-  <summary>How it works</summary>
+  <summary>Remarks</summary>
   
-  The `SendInput` works by inserting inputs into the input stream of the device. These inputs are then executed like they were from a physical input and react with app-events, e.g. closes a tab in a 
+  The `SendInput` works by inserting inputs into the input stream of the device. These inputs are then executed like they are from a physical input and react with app-events, e.g. closes a tab in a 
   browser when you press CTRL-W.
 
   This also brings security flaws that are prevented like this:
 
   >This function is subject to UIPI. Applications are permitted to inject input only into applications that are at an equal or lesser integrity level.
 
-  Means that the code you are running has low or medium integrity and is not permitted to send inputs to higher integrity application (e.g. system).
+  This means that the code you are running has low or medium integrity and is not permitted to send inputs to higher integrity application (e.g. system).
 
-  Because the any inputs from the user or this application are but into an Input-Buffer that holds all inputs, user inputs can mess with the inputs send from the application.
+  Because any inputs from the user or this application are put into an Input-Buffer that holds all inputs, user inputs can mess with the inputs sent from the application.
 </details>
