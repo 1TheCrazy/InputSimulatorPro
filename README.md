@@ -59,21 +59,21 @@ v1.0.3 : General Updates
   ```
   public void KeyUp(VirtualKeyShort keyShort)
   ```
-  Takes in a `VirtualKeyShort` representing the key you want to simulate the KeyDown input for.
+  Takes in a `VirtualKeyShort` representing the key you want to simulate the KeyUp input for.
 
 
   __KeyPress:__
   ```
   public void KeyPress(VirtualKeyShort keyShort)
   ```
-  Takes in a `VirtualKeyShort` reporesenting the key you want to simulate a keypress (down and up input) for.
+  Takes in a `VirtualKeyShort` representing the key you want to simulate a keypress (down and up input) for.
 
   
   __TextEntry:__
   ```
   public void TextEntry(string text)
   ```
-  Takes in a `string` representing the Text you want to enter. The method simulates the KeyDown and KeyUp input for every char in the string and mapps it to the `VirtualKeyCode`. 
+  Takes in a `string` representing the Text you want to enter. The method simulates the KeyDown and KeyUp input for every char in the string by mapping it to the corresponding `VirtualKeyCode`. 
 
 
   __SimultaneousKeyPress:__
@@ -94,14 +94,14 @@ v1.0.3 : General Updates
   ```
   public void SimultaneousKeyDown(VirtualKeyShort[] keyShorts)
   ```
-  Takes in an array of `VirtualKeyShort` representing the keys you want to simulate a key up input  for at the same time. This can be used to simulate inputs that use the CTRL-key as a modifyer key.
+  Takes in an array of `VirtualKeyShort` representing the keys you want to simulate a key up input for at the same time. This can be used to simulate inputs that use the CTRL-key as a modifyer key.
 
 
   __Sleep__
   ```
   public void Sleep(int milliseconds)
   ```
-  Takes in an `int` that represents the timeout of the Thread in milliseconds. It utilizes `Thread.Sleep` and is just here for practical purposes. This mthod also has an overload which takes in a `TimeSpan`
+  Takes in an `int` that represents the timeout of the Thread in milliseconds. It utilizes `Thread.Sleep` and is just here for practical purposes. This method also has an overload which takes in a `TimeSpan`
   representing the timeout.
 </details>
 
@@ -122,7 +122,7 @@ v1.0.3 : General Updates
   ```
   public void KeyUp(MouseButton button)
   ```
-  Takes in a `MouseButton` representing the button you want simulate a up input for.
+  Takes in a `MouseButton` representing the button you want simulate an up input for.
 
 
   __KeyPress__
@@ -136,7 +136,7 @@ v1.0.3 : General Updates
   ```
   public void SetCursorPositionRelative(Vector2 coordinates)
   ```
-  Takes in a `Vector2` representing the relative pixels amount you want to set the cursor position to. The (0,0) coordinate is always at the cursor (thats why it's relative movement).
+  Takes in a `Vector2` representing the relative pixels amount you want to set the cursor position to. The (0,0) coordinate is always at the cursors current position (thats why it's relative movement).
 
 
   __SetCursorPositionAbsolute__
@@ -152,7 +152,7 @@ v1.0.3 : General Updates
 
   useNormalizedCoordinates and virtualDesktop can't be used together.
 
-  useNormalizedCoordinates may not be pixel-perfect due to floating point errors and how deltaTime is calculated. (ca. 8p out of 10.000, no guarantee on that)
+  useNormalizedCoordinates may not be pixel-perfect due to floating point errors and how deltaTime is calculated. (ca. 8p out of 10.000p, no guarantee on that)
 
 
   __InterpolateCursorPositionRelative__
@@ -172,14 +172,14 @@ v1.0.3 : General Updates
   The `Vector2` startCoordinate represents the coordinates where the cursor position interpolation should be started, the endCoordinates the end. `t`represents the time you want to interpolate the
   cursor position over in seconds.
 
-  If useNormalizedCoordinates is true, the coordinates are normalzed to the MAIN monitor using the `GetSystemMetrics`-method from the Windows-API. If not the coordinates should be given in a range of 
+  If useNormalizedCoordinates is true, the coordinates are normalized to the MAIN monitor using the `GetSystemMetrics`-method from the Windows-API. If not, the coordinates should be given in a range of 
   65535.0 to 0.
 
   If virtualDesktop is true the coordinates are mapped to the whole virtual desktop. This is used for multi-monitor setups.
 
   useNormalizedCoordinates and virtualDesktop can't be used together.
 
-  useNormalizedCoordinates may not be pixel-perfect due to floating point errors and how deltaTime is calculated. (ca. 8p out of 10.000, no guarantee on that)
+  useNormalizedCoordinates may not be pixel-perfect due to floating point errors and how deltaTime is calculated. (ca. 8p out of 10.000p, no guarantee on that)
 
 
   __VerticalWheel__
