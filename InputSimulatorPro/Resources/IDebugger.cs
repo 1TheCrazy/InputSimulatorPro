@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace InputSimulatorPro.Resources
+﻿namespace InputSimulatorPro.Resources
 {
     /// <summary>
     /// The contract for the <see cref="Debugger"/> class. Used for debugging.

@@ -1,10 +1,4 @@
-﻿using System;
-using InputSimulatorPro.Resources.Natives;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Runtime.InteropServices;
+﻿using InputSimulatorPro.Resources.Natives;
 using System.Diagnostics;
 
 namespace InputSimulatorPro.Resources

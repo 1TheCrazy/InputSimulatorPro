@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace InputSimulatorPro.Resources.Natives
+﻿namespace InputSimulatorPro.Resources.Natives
 {
     /// <summary>
     /// Defines what <see cref="MouseButton"/> should be simulated in the input.

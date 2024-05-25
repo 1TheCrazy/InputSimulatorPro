@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace InputSimulatorPro.Resources.Natives
+﻿namespace InputSimulatorPro.Resources.Natives
 {
     /// <summary>
     /// The <see cref="InputType"/> enum. Defines what type of input an <see cref="INPUT"/> instance holds.

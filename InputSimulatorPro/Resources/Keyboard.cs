@@ -1,10 +1,4 @@
 ﻿using InputSimulatorPro.Resources.Natives;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection.Emit;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace InputSimulatorPro.Resources
 {
@@ -66,6 +60,8 @@ namespace InputSimulatorPro.Resources
                 inputs[i].Group.Keyboard.VirtualKey = keyShorts[i];
                 inputs[i].Group.Keyboard.Flags = ((int)keyShorts[i] & 0x0100) == 0x0100 ? (KeyboardFlags.Keyup | KeyboardFlags.Extendedkey) : KeyboardFlags.Keyup;
             }
+
+            InputDispatcher.DispatchInput(inputs);
         }
         
         public void SimultaneousKeyDown(VirtualKeyShort[] keyShorts)

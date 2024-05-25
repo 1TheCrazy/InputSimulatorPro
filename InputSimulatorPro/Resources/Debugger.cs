@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace InputSimulatorPro.Resources
+﻿namespace InputSimulatorPro.Resources
 {
     /// <summary>
     /// the class that holds info and options for debugging
@@ -18,7 +12,7 @@ namespace InputSimulatorPro.Resources
         /// <summary>
         /// A <see cref="string"/> that holds the current version of <see cref="InputSimulatorPro"/>.
         /// </summary>
-        public string Version { get { return "1.0.3.0"; } }
+        public string Version { get { return "1.0.0.1"; } }
         /// <summary>
         /// A <see cref="string"/> that holds the author of this code.
         /// </summary>

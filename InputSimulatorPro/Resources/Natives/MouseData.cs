@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace InputSimulatorPro.Resources.Natives
+﻿namespace InputSimulatorPro.Resources.Natives
 {
     /// <summary>
     /// The <see cref="MouseData"/> for this input. Defines extra data, like what side button should be used for simulating in this input, if <see cref="MOUSEINPUT.Flags"/> is set to <see cref="MouseFlags.XUp"/> or <see cref="MouseFlags.XDown"/>, or how much should be scrolled.

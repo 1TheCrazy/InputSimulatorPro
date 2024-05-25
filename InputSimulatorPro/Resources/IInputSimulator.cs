@@ -1,11 +1,4 @@
-﻿using InputSimulatorPro.Resources;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace InputSimulatorPro.Resources
+﻿namespace InputSimulatorPro.Resources
 {
     /// <summary>
     /// The contract for <see cref="InputSimulator"/>. Holds references to the interface that provide the functions of this library.
