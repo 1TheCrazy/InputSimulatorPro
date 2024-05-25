@@ -34,6 +34,8 @@ v1.0.2 : Removed unnecessary WriteLine-statements and fixed not working Mouse.Ve
 
 v1.0.3 : General Updates
 
+v1.0.4 : Fixed Keyboard.SimultaneousKeyPress
+
 ## Docs
 
 <details>
